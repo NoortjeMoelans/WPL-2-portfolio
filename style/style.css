@@ -1,0 +1,775 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Actor,Open-sans,sans-serif;
+}
+body{
+    margin: 0;
+
+}
+
+header{
+    width: 1200px;
+    margin: 50px;
+}
+nav{
+    align-items: center;
+    list-style-type: none;
+    margin: 5px;
+    font-size: 21px;
+    padding-left: 200px;
+
+}
+nav a{
+    padding-right:5px;
+    padding-left: 50px;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+
+}
+
+#home{
+    text-transform: uppercase;
+    color: #2599AE;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+h1 {
+    font-family: Actor, Open-sans, sans-serif;
+    color: #2599AE;
+}
+/*home */
+.intro {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    display: flex ;
+    margin-right: 300px;
+    padding-left: 400px;
+    padding-right: 300px;
+    padding-top: 20px;
+}
+.intro-img-rechts img {
+    max-width: 2000%;
+    height: 900px;
+    margin-top: -150px;
+}
+.intro-tekst {
+    font-size: 24px;
+    align-items: center;
+
+}
+.hoofdtitel-homepagina{
+    font-size: 45px;
+    font-weight: 700;
+    font-family: open sans   ;
+    color: black;
+    line-height: normal;
+}
+.noortje-moelans-homepagina{
+    font-size: 60px;
+    font-family: Annie Use Your Telescope ;
+    font-weight: lighter;
+    color: #2599AE;
+}
+#blauwepijl-voor-home{
+    float: left;
+    margin-top: -550px;
+    padding-top: 10px;
+    padding-left: 180px;
+}
+  /*overmij */
+
+    #image-rij{
+        display: flex;
+        padding-top:  100px;
+        width: 1150px;
+        height: 420px;
+        margin-left: 350px;
+        padding-bottom: -650px;
+        margin-top: -40px;
+
+    }
+    #image-rij img {
+        border-radius: 50px;
+        padding: 20px;
+        width: 30%;
+    }
+#intro-overmij{
+    display: flex;
+    width: 100%;
+}
+#linkerkant-overmij{
+    float: left;
+    margin-right: 20px;
+    padding-right: -20px;
+    margin-top: 280px;
+    margin-left: 380px;
+    font-size: 18px;
+}
+#linkerkant-overmij p{
+    margin: 15px;
+}
+#recherkant-overmij{
+    float: right;
+    width: 50%;
+    padding-right: -80px;
+    padding-left: 90px;
+}
+#profielfoto-overmij {
+    width: 450px;
+    height: 388px;
+    float: right;
+    padding-right: -50px;
+    margin-right: -350px;
+    margin-top: 100px;
+    padding-left: 10px;
+}
+#homepagina-titel-overmij {
+    margin-left: 150px;
+    margin-right: 20%;
+    color: #2599AE;
+    font-family: Annie Use Your Telescope;
+    font-size: 60px;
+    font-weight: 590;
+    margin-top: -50px;
+}
+#skills-overmij{
+    margin-top: 540px;
+    margin-right: 500px;
+    margin-left: 50px;
+    font-size: 13px;
+
+}
+#skills-overmij h1{
+    color: #2599AE;
+    font-size: 20px;
+
+}
+#skills-overmij h2{
+    color: #2599AE;
+    font-size: 18px;
+}
+#skills-overmij li{
+    padding-top: -50px;
+   font-size: 14px;
+     margin: 5px;
+}
+ .bollen-voormij {
+     width: 100%;
+     height: 20%;
+     margin-top: 20px;
+ }
+footer{
+    max-width: 200px;
+    height: 200px;
+    padding-top: 50px;
+}
+#gegevens-links-overmij{
+    float: left;
+    margin-left: 500px;
+    margin-right: -370px;
+    width: 300px;
+    font-size: 20px;
+    color: #2599AE;
+    font-weight: bolder;
+    padding-top: 3px;
+}
+#gegevens-rechts-overmij{
+    float: right;
+    margin-left: 60px;
+    margin-right: -840px;
+    width: 300px;
+    font-size: 20px;
+    color: #2599AE;
+    font-weight: bolder;
+}
+footer li a{
+    text-decoration: none;
+    color: #2599AE;
+}
+#hallo-overmij{
+    font-family: open sans ;
+    color: black;
+}
+/*werkplekleren */
+
+.intro-werkplekleren{
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 300px;
+    padding-left: 400px;
+    padding-right: 300px;
+    padding-top: 20px;
+}
+#homepagina-titel-wpl{
+    margin-left: 350px;
+    margin-right: 20px;
+    color: #000;
+    font-family: "Annie Use Your Telescope";
+    font-size: 70px;
+    font-weight: 590;
+    margin-top: 120px;
+}
+#zwartepijl-wpl{
+    float: left;
+    margin-right: 20px;
+    margin-top: -55px;
+    margin-left: 170px;
+    width: 20%;
+
+}
+#bestanden-opdrachten{
+    margin-right: 20px;
+    color: #000;
+    font-size: 40px;
+    font-weight: 590;
+    margin-top: 120px;
+
+}
+#bestanden-opdrachten-linkerkant a{
+    text-decoration: none;
+    color: #2599AE;
+}
+
+#opdrachten-rechts-wpl{
+    float: right;
+    margin-right: 650px;
+    padding-top: 90px;
+    color: #2599AE;
+    font-size: 20px;
+
+}
+#bestanden-opdrachten-linkerkant{
+    float: left;
+    margin-left: 630px;
+    margin-top: -2px;
+    padding-top: 90px;
+    color: #2599AE;
+    font-size: 20px;
+
+}
+
+#opdrachten-font{
+    color: black;
+    font-family: Annie Use Your Telescope;
+    font-size: 40px;
+    font-weight: normal;
+}
+#bestanden-font{
+    color: black;
+    font-family: Annie Use Your Telescope;
+    font-size: 40px;
+    font-weight: normal;
+}
+#bollen-voormij-werklplekleren{
+    width: 100%;
+    height: 20%;
+    margin-top: 130px;
+}
+#pop-opdrachten-titel{
+    font-family: Annie Use Your Telescope;
+    color: #2599AE;
+    margin-left: 780px;
+    margin-top: 100px;
+    font-size: 48px;
+    font-weight: lighter;
+}
+#reflecteren-algemeen{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 500px;
+    margin-top: 100px;
+
+}
+#reflecteren-titel-wpl{
+    font-size: 30px;
+}
+#ervaring2-reflec{
+    margin-top: 20px;
+}
+/*reflecteren */
+
+#kernwaarden-algemeen{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 700px;
+    margin-top: 100px;
+}
+#kernwaarden-wpl-titel{
+    font-size: 30px;
+}
+#foto-kernwaarden{
+    float: right;
+    width: 30%;
+    margin-top: -650px;
+    margin-right: 90px;
+}
+/*kernwaarden */
+
+
+
+/*personal branding */
+#personalbranding-algemeen{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    margin-left: 400px;
+    margin-right: 1000px;
+    color: #2599AE;
+
+}
+#personalbranding-foto{
+    float: right;
+    width: 25%;
+    margin-top: -490px;
+    margin-right: 200px;
+}
+#oranje-pijlen{
+    float: right;
+    width: 8%;
+    margin-top: -500px;
+    margin-right: 100px;
+}
+#titel-personal-branding{
+   font-weight: bolder;
+    font-size: 30px;
+}
+/*personal branding */
+
+/*reflectieopdracht*/
+#reflectieopdracht-algemeen{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 600px;
+
+}
+#bollen-voormij-werklplekleren-verkenning{
+    width: 100%;
+    height: 20%;
+    margin-top: 130px;
+}
+#werkveld-reflectie-titel{
+    font-family: Annie Use Your Telescope;
+    color: #2599AE;
+    margin-left: 680px;
+    margin-top: 150px;
+    font-size: 48px;
+    font-weight: lighter;
+}
+#titel-reflectie{
+    font-size: 30px;
+}
+/*reflectieopdracht*/
+
+/*Arbeidersmarkt */
+#algemeen-arbeidersmarkt{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 700px;
+    margin-top: 100px;
+}
+#titel-arbeid-1{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#vacature\ 1{
+    width: 60%;
+    margin-top: -1990px;
+   margin-left: 900px;
+    margin-bottom: 400px;
+}
+/*Arbeidersmarkt */
+/*Arbeidersmarkt - 2 */
+#werkveld-vacature-2 {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: -900px;
+    margin-top: 100px;
+}
+#vacature-4{
+    width: 60%;
+    margin-top: -3000px;
+    margin-left: 900px;
+    margin-bottom: 20px;
+
+}
+#bollen-voormij-werklplekleren-reflectie{
+    width: 100%;
+    height: 20%;
+    margin-top: 130px;
+}
+#font-werkervaring-4{
+    font-weight: bolder;
+    font-size: 30px;
+}
+#vacature-4-font{
+    font-weight: bolder;
+    font-size: 25px;
+}
+/*Arbeidersmarkt-einde */
+
+/*eindreflectieopdracht */
+
+#eindreflectie-algemeen{
+    margin-top: 180px;
+    margin-left: 550px;
+    margin-right: 500px;
+}
+#eindreflectie-hoofdtitel{
+    font-family: Annie Use Your Telescope;
+    color: #2599AE;
+    margin-left: 200px;
+    margin-top: -200px;
+    font-size: 48px;
+    font-weight: lighter;
+    padding-top: 200px;
+    padding-bottom: 150px;
+}
+#hartje{
+    width: 25%;
+    margin-left: 700px;
+    margin-top: 150px;
+}
+#bollen-voormij-werklplekleren-reflectie-footer{
+    width: 100%;
+    height: 20%;
+    margin-top: 130px;
+}
+#ondertitel-eindreflectie{
+    color: #2599AE;
+}
+/*eindreflectieopdracht */
+
+/*Mijn-werk */
+
+#allesvan-mijnwerk-algemeen{
+    width: 100%;
+    overflow-x: hidden;;
+    font-size: 18px;
+}
+
+#Mijnwerk-algemeen{
+    float: left;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 600px;
+}
+.mijnwerk-titel{
+    margin-left: 350px;
+    margin-right: 20px;
+    color: #000;
+    font-family: Annie Use Your Telescope ;
+    font-size: 70px;
+    font-weight: 590;
+    margin-top: 120px;
+}
+#zwartepijl-mijnwerk{
+    float: left;
+    margin-right: 50px;
+    margin-top: -10px;
+    margin-left: 400px;
+    width: 10%;
+}
+#bm-nomo-foto{
+    float: left;
+    margin-right: 200px;
+    margin-top: -1px;
+    margin-left: -100px;
+    width: 60%;
+}
+#tekst-bm-nomo {
+    float: right;
+    margin-top: -450px;
+    padding: 10px;
+    margin-left: 500px;
+    margin-right: -200px;
+}
+#Initalen-logoopdracht-titel{
+    color: #2599AE;
+    font-size: 30px;
+
+}
+#fontfolio-algemeen {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    margin-left: 400px;
+    margin-right: 1000px;
+}
+#fontfolio-foto{
+    float: right;
+    width: 135%;
+    margin-top: -10px;
+    margin-right: -800px;
+    margin-left: 200px;
+
+}
+#fontfolio-titel{
+    color: #2599AE;
+    font-size: 30px;
+}
+#pijlzwart-beneden-onderfontfolio{
+    float: left;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-left: 800px;
+    width: 5%;
+}
+#grote-tattoo{
+    width: 40%;
+    margin-top: 100px;
+    margin-left: 990px;
+
+}
+#kleine-tattoo{
+    width: 26%;
+    margin-top: 60px;
+    margin-left: 1100px;
+    margin-bottom: 10px;
+}
+#tekst-tattoo{
+    float: left;
+    margin-top: -600px;
+    margin-left: 400px;
+    margin-right: 1000px;
+}
+#tattoo-titel{
+    color: firebrick;
+    font-size: 30px;
+}
+#langnek-foto{
+    float: left;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-left: 280px;
+    width: 40%;
+}
+#langnek-tekst{
+    float: right;
+    margin-top: -450px;
+    padding: 5px;
+    margin-left: 1100px;
+    margin-right: 200px;
+}
+#bollen-zijkant{
+    float: left;
+    margin-left: -900px;
+    width: 2%;
+}
+#bollen-foto-brandbook{
+    float: left;
+    margin-left: 900px;
+    width: 20%;
+}
+#titel-langnek{
+    color: forestgreen;
+    font-size: 30px;
+}
+#brandbook-foto{
+    float: left;
+    margin-top: 300px;
+    margin-left: 350px;
+    width: 35%;
+}
+#brandbook-tekst{
+    float: right;
+    margin-top: -550px;
+    padding: 5px;
+    margin-left: 1200px;
+    margin-right: 300px;
+}
+#tiny-font{
+    color: yellowgreen;
+    font-size: 30px;
+}
+#zwartepijlmijnwerk-2{
+    float: left;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-left: 830px;
+    width: 5%;
+}
+#bollen-zijkant-2{
+    float: right;
+    margin-left: -800px;
+    margin-right: 20px;
+    width: 2%;
+}
+#zeeman-foto{
+    float: right;
+    width: 39%;
+    margin-top: 350px;
+    margin-right: 200px;
+}
+#tekst-zeeman{
+    float: left;
+    margin-top: -500px;
+    margin-left: 400px;
+    margin-right: 1000px;
+}
+#titel-zeeman{
+    color: midnightblue;
+    font-size: 30px;
+}
+#titel-cadeau{
+    float: left;
+    margin-top: 250px;
+    margin-left: 400px;
+    margin-right: 1000px;
+    color: #2599AE;
+    font-size: 30px;
+
+}
+#titel-gezin{
+    float: left;
+    margin-top: 50px;
+    margin-left: 390px;
+    margin-right: 1000px;
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+}
+#titel-nichten{
+    float: left;
+    margin-top: -35px;
+    margin-left: 830px;
+    margin-right: 100px;
+    font-size: 25px;
+    font-weight: bold;
+    color: cadetblue;
+}
+#titel-vrienden{
+    float: left;
+    margin-top: -35px;
+    margin-left: 1260px;
+    margin-right: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+#cadeautjes-foto{
+    width: 70%;
+    margin-top: 90px;
+    margin-left: 300px;
+}
+#tekst-cadeaus{
+    float: left;
+    margin-top: 90px;
+    margin-left: 340px;
+    margin-right: 600px;
+
+}
+#bollen-mijnwerk-footer{
+    width: 100%;
+    height: 20%;
+    margin-top: 130px;
+}
+/*Mijn-werk */
+/*javascript */
+.pop-up{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2599AE;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
+    z-index: 1;
+}
+.popup-content{
+    text-align: center;
+}
+.close{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+button{
+    padding: 10px;
+    font-size: 20px;
+    background-color: #2599AE;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+}
+#showpopup{
+    margin-left: 700px;
+}
+#button-algemeen{
+    margin-top: -100px;
+}
+
+
+
+
+/*javascript */
+
+
+
+
+@media (min-width:  600px) {
+    p{
+        font-size: 1.25rem;
+    }
+}
+@media (max-width: 600px) {
+    h3 {
+        font-size: 10px;
+    }
+}
+@media (max-width: 600px)  #allesvan-mijnwerk-algemeen{
+
+}
+
+@media (max-width: 600px).intro {
+
+}
+@media (max-width: 600px) .intro-werkplekleren{
+
+}
+
+@media (max-width: 600px) #algemeen-arbeidersmarkt{
+
+}
+@media (max-width: 600px) #fontfolio-algemeen{
+
+ }
+@media screen and (min-width: 80rem) {
+    .container {
+        margin: 1em 2em;
+    }
+}
+@media screen and (max-width:1024px) {
+    .intro-werkplekleren{
+
+    }
+    .intro{
+
+    }
+}
+{
+
+}

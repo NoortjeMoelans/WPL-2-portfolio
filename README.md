@@ -1,4 +1,4 @@
-# wpl1-2324-start
+# wpl2-2324-start
 
 # Naam
 Noortje Moelans
@@ -7,5 +7,5 @@ Noortje Moelans
 12200689
 
 # Klas
-1DVOA
+1BVOA
 

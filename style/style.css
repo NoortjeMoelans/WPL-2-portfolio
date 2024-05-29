@@ -196,7 +196,7 @@ footer li a{
     color: #5cada5;
 }
 #hallo-overmij{
-    font-family: open sans ;
+    font-family: open sans,sans-serif ;
     color: black;
     }
 
@@ -219,7 +219,7 @@ footer li a{
     margin-left: 350px;
     margin-right: 20px;
     color: #000;
-    font-family: "Annie Use Your Telescope";
+    font-family: "Annie Use Your Telescope",sans-serif;
     font-size: 70px;
     font-weight: 590;
     margin-top: 120px;
@@ -266,13 +266,13 @@ footer li a{
 
 #opdrachten-font{
     color: black;
-    font-family: Annie Use Your Telescope;
+    font-family: Annie Use Your Telescope,sans-serif;
     font-size: 40px;
     font-weight: normal;
 }
 #bestanden-font{
     color: black;
-    font-family: Annie Use Your Telescope;
+    font-family: Annie Use Your Telescope,sans-serif;
     font-size: 40px;
     font-weight: normal;
 }
@@ -282,7 +282,7 @@ footer li a{
     margin-top: 130px;
 }
 #pop-opdrachten-titel{
-    font-family: Annie Use Your Telescope;
+    font-family: Annie Use Your Telescope,sans-serif;
     color: #2599AE;
     margin-left: 780px;
     margin-top: 100px;
@@ -372,7 +372,7 @@ footer li a{
     margin-top: 130px;
 }
 #werkveld-reflectie-titel{
-    font-family: Annie Use Your Telescope;
+    font-family: Annie Use Your Telescope,sans-serif;
     color: #2599AE;
     margin-left: 680px;
     margin-top: 150px;
@@ -443,7 +443,7 @@ footer li a{
     margin-right: 500px;
 }
 #eindreflectie-hoofdtitel{
-    font-family: Annie Use Your Telescope;
+    font-family: Annie Use Your Telescope,sans-serif;
     color: #2599AE;
     margin-left: 200px;
     margin-top: -200px;
@@ -567,7 +567,6 @@ footer li a{
     padding-top: 100px;
 }
 #tekst-tattoo p{
-
     font-size: 15px;
     margin-left: 100px;
     margin-right: -200px;
@@ -579,19 +578,22 @@ footer li a{
     text-transform: uppercase;
     padding-left: 100px;
 }
-#langnek-foto{
+#foto-nomo{
     float: left;
     margin-right: 200px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 280px;
-    width: 40%;
+    width: 30%;
 }
-#langnek-tekst{
+#tekst-van-nomo{
     float: right;
     margin-top: -450px;
     padding: 5px;
-    margin-left: 1100px;
+    margin-left: 900px;
     margin-right: 200px;
+}
+#tekst-van-nomo p{
+    font-size: 15px;
 }
 #bollen-zijkant{
     float: left;
@@ -603,9 +605,11 @@ footer li a{
     margin-left: 900px;
     width: 20%;
 }
-#titel-langnek{
-    color: forestgreen;
-    font-size: 30px;
+#Nomo-titel-logo{
+    color: #000000;
+    font-size: 25px;
+    text-transform: uppercase;
+
 }
 #brandbook-foto{
     float: left;

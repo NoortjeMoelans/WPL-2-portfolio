@@ -17,42 +17,34 @@ nav{
 
     align-items: center;
     list-style-type: none;
-    font-size: 21px;
-    display: flex;
+    font-size: 18px;
     justify-content: flex-end;
-
-
+    margin-top: 30px;
+    padding-left: 250px;
 }
 nav a:hover{
     background-color: #ffffff;
-    color: #2599AE;
+    color: #5cada5;
     cursor: pointer;
     font-weight: bolder;
-
 }
 
-
-
 nav a{
-    padding-left: -300px;
-    margin: 50px;
+    margin: 40px;
     color: black;
     text-decoration: none;
 
-
-
 }
-
 #home{
     text-transform: uppercase;
-    color: #2599AE;
+    color: #5cada5;
     font-weight: bold;
     font-size: 25px;
 }
 
 h1 {
     font-family: Actor, Open-sans, sans-serif;
-    color: #2599AE;
+    color: #5cada5;
 }
 /*home */
 .intro {
@@ -61,40 +53,39 @@ h1 {
     justify-content: space-between;
     display: flex ;
     margin-right: 300px;
-    padding-left: 400px;
+    padding-left: 360px;
     padding-right: 300px;
-    padding-top: -400px;
 }
+
 .intro-img-rechts img {
     max-width: 2000%;
-    height: 900px;
-    margin-top: -250px;
+    height: 680px;
+   margin-top: -50px;
+    padding-left: 90px;
 }
-.intro-tekst {
-    font-size: 24px;
-    align-items: center;
 
-}
 .hoofdtitel-homepagina{
-    margin-top: -70px;
-    font-size: 45px;
+    font-size: 40px;
     font-weight: 700;
-    font-family: open sans   ;
+    font-family: Actor, sans-serif;
     color: black;
     line-height: normal;
+    margin-left: -50px;
+    margin-top: -60px;
 }
 .noortje-moelans-homepagina{
-    font-size: 60px;
-    font-family: Annie Use Your Telescope ;
+    font-size: 50px;
+    font-family: Annie Use Your Telescope, sans-serif ;
     font-weight: lighter;
-    color: #2599AE;
+    color: #5cada5;
+    margin-left: -50px;
 }
-#blauwepijl-voor-home{
-    float: left;
-    margin-top: -500px;
-    padding-top: 10px;
-    padding-left: 180px;
+.tekst-homepagina{
+    font-size: 16px;
+    margin-left: -50px;
 }
+
+
   /*overmij */
 
     #image-rij{
@@ -707,7 +698,7 @@ footer li a{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: #2599AE;
+    background-color: #5cada5;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
     z-index: 1;
@@ -724,17 +715,21 @@ footer li a{
 }
 button{
     padding: 10px;
-    font-size: 20px;
-    background-color: #2599AE;
+    font-size: 15px;
+    background-color: #5cada5;
     color: #fff;
     border-radius: 5px;
     border: 1px solid #ffffff;
+    margin-left: -50px;
 }
 #showpopup{
     margin-left: 700px;
 }
 #button-algemeen{
-    margin-top: -100px;
+    margin-top: -150px;
+    color: #000000;
+    margin-left: -190px;
+    font-size: 15px;
 }
 
 

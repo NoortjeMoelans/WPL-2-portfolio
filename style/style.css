@@ -219,11 +219,10 @@ footer li a{
     font-weight: 300;
   padding-top: 120px;
     padding-bottom: 70px;
-
 }
 #opdrachten-rechts-wpl{
     float: right;
-    padding-right: 500px;
+    padding-right: 530px;
     color: #5cada5;
     font-size: 20px;
     padding-left: -20px;
@@ -387,7 +386,7 @@ footer li a{
     align-items: center;
     justify-content: center;
     margin-top: 100px;
-    margin-left: 500px;
+    margin-left: 400px;
     margin-right: 400px;
 }
 #reflectieopdracht-algemeen p{
@@ -406,7 +405,7 @@ footer li a{
     padding-top: 2800px;
 }
 #titel-reflectie{
-    font-size: 25px;
+    font-size: 20px;
     text-transform: uppercase;
 }
 
@@ -416,33 +415,114 @@ footer li a{
 
 #eindreflectie-algemeen{
     margin-top: 180px;
-    margin-left: 550px;
-    margin-right: 500px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#eindreflectie-algemeen p{
+    font-size: 15px;
+
+}
+#eindreflectie-algemeen h2{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+#eindreflectie-algemeen h3{
+    font-size: 15px;
+    text-transform: uppercase;
 }
 #eindreflectie-hoofdtitel{
     font-family: Annie Use Your Telescope,sans-serif;
-    color: #2599AE;
-    margin-left: 200px;
-    margin-top: -200px;
+    color: #000000;
     font-size: 48px;
     font-weight: lighter;
-    padding-top: 200px;
-    padding-bottom: 150px;
+    padding-top: 500px;
+    padding-left: 150px;
 }
-#hartje{
-    width: 25%;
-    margin-left: 700px;
-    margin-top: 150px;
-}
-#bollen-voormij-werklplekleren-reflectie-footer{
-    width: 100%;
-    height: 20%;
-    margin-top: 130px;
-}
+
 #ondertitel-eindreflectie{
-    color: #2599AE;
+    color: #5cada5;
+    text-transform: uppercase;
+    font-size: 20px;
 }
+#Bom{
+    width: 25%;
+    margin-left: 520px;
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+
 /*eindreflectieopdracht */
+
+
+/*Werkplekleren 2 */
+#homepagina-titel-wpl-2{
+    margin-left: 600px;
+    color: #000000;
+    font-family: Annie Use Your Telescope, sans-serif;
+    font-size: 60px;
+    font-weight: 300;
+    padding-top: 120px;
+    padding-bottom: 70px;
+}
+#opdrachten-rechts-wpl-2{
+    float: right;
+    padding-right: 500px;
+    color: #5cada5;
+    font-size: 20px;
+    padding-left: -20px;
+    text-decoration: none;
+}
+#bestanden-opdrachten-linkerkant-2{
+    float: left;
+    margin-left: 530px;
+    padding-top: -200px;
+    color: #5cada5;
+    font-size: 20px;
+}
+#bestanden-font-links-2{
+    color: #ffffff;
+    font-family: Actor,sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    border-radius: 5px;
+    background: #5cada5;
+    padding-left: 5px;
+    text-transform: uppercase;
+
+}
+
+#Introduction-titel-2{
+    font-family: Annie Use Your Telescope,sans-serif;
+    color: #5cada5;
+    margin-left: 620px;
+    font-size: 48px;
+    font-weight: lighter;
+    padding-top: 480px;
+}
+
+#wpl2-algemeen-2{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#wpl2-algemeen-2 p {
+    font-size: 15px;
+}
+#foto-ict{
+    width: 50%;
+}
+
+/*Werkplekleren 2 */
+
+
+
+
+
+
+
 
 /*Mijn-werk */
 
@@ -609,6 +689,7 @@ footer li a{
 }
 
 /*Mijn-werk */
+
 /*javascript */
 .pop-up{
     display: none;
@@ -649,6 +730,16 @@ button{
     margin-left: -190px;
     font-size: 15px;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

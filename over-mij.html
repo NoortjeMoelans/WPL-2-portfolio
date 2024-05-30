@@ -6,6 +6,7 @@
     <meta  name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" type="text/css" href="assets/lettertypes/Annie_Use_Your_Telescope">
+    <script src="script/script.js"></script>
 </head>
 <body>
 <header>
@@ -17,7 +18,16 @@
         <a href="werkplekleren%202.html">Werkplekleren 2 </a>
     </nav>
 </header>
+
 <main>
+    <div id="contactPopup" class="popup">
+        <div class="popup-content">
+            <span class="popup-close" onclick="closePopup()">&times;</span>
+            <h2> Heb je vragen? </h2>
+            <p>Stuur ons een e-mail!</p>
+            <button onclick="openEmail()">E-mail ons</button>
+        </div>
+    </div>
     <section id="intro-overmij">
         <div id="linkerkant-overmij">
         <h1 id="homepagina-titel-overmij">Over mij</h1><br>
@@ -65,7 +75,12 @@
         <img class="papier-nomo" src="assets/NOMO%20papier.png" alt="memoria" >
         <img class="noor-vogue" src="assets/Vogue%20NOOR.jpg" alt="druif">
         </section>
+
+
+
 </main>
+
+
 
 <footer class="footer-algemeen-over-mij">
     <div id="gegevens-links-overmij">
@@ -84,6 +99,13 @@
         <li><a href="https://hogeschoolpxl-my.sharepoint.com/:f:/g/personal/12200689_student_pxl_be/EuYybXC_WEJCkyN08NRgxKoBzVs9O3_pPJRPP9EF1aoHMA?e=WgnccH"> Werkervaringen: Student/Jobstudent</a></li>
     </ul>
     </div>
+
+
+
+
+
+
+
 </footer>
 </body>
 </html>

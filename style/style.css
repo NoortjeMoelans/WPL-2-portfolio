@@ -518,6 +518,19 @@ footer li a{
 #wpl2-algemeen-2 p {
     font-size: 15px;
 }
+#begin-wpl2{
+    text-transform: uppercase;
+    color: black;
+}
+#Electronica-titel{
+    text-transform: uppercase;
+}
+#Titel-workproces{
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+
 #foto-ict{
     width: 100%;
     padding-top: 50px;
@@ -661,13 +674,67 @@ footer li a{
     margin-left: 400px;
     width: 14%;
 }
+#Groep-reviews{
+    margin-top: -600px;
+
+}
+#Groep-reviews-algemeen{
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-right: 550px;
+    padding-bottom: 30px;
 
 
+}
+#Groep-reviews-algemeen p{
+    font-size: 15px;
+
+}
+#Groep-reviews-algemeen h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #5cada5;
+
+
+}
+#Groep-reviews-titel{
+    font-family: Annie Use Your Telescope,sans-serif;
+    color: #000000;
+    margin-left: 500px;
+    font-size: 48px;
+    font-weight: lighter;
+    padding-top: 2800px;
+    margin-bottom: 20px;
+
+}
+#Groep-Sprint-reviews{
+    font-size: 20px;
+    text-transform: uppercase;
+
+}
+#Groepsreflectie-download{
+    color: #ffffff;
+    font-family: Actor,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 6px;
+    background: #5cada5;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#groepsreflectie-alles{
+    padding-left: 620px;
+    padding-bottom: 90px;
+
+}
+#Groep-reviews-algemeen h2{
+    font-size: 15px;
+}
 /*Werkplekleren 2 */
-
-
-
-
 
 
 

@@ -644,6 +644,7 @@ footer li a{
     color: #000000;
     font-size: 25px;
     text-transform: uppercase;
+    padding-left: 6px;
 }
 #foto-Mock-up{
     float: left;

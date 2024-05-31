@@ -562,11 +562,107 @@ footer li a{
     text-decoration: none;
     padding-left: 20px;
     padding-right: 20px;
-
 }
 #brandbook-alles{
     padding-left: 1020px;
 }
+
+#foto-web{
+    float: left;
+    margin-right: 200px;
+    margin-top: 150px;
+    margin-left: 280px;
+    width: 30%;
+}
+#tekst-van-web{
+    float: right;
+    margin-top: -350px;
+    padding: 5px;
+    margin-left: 900px;
+    margin-right: 200px;
+
+
+}
+#tekst-van-web p{
+    font-size: 15px;
+
+}
+#web-titel-logo{
+    color: #000000;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#Link-ict-site{
+    color: #ffffff;
+    font-family: Actor,sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    border-radius: 6px;
+    background: #5cada5;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#App-algemeen {
+    float: left;
+    align-items: center;
+    justify-content: center;
+    margin-top: 300px;
+    margin-left: 220px;
+    margin-right: 1000px;
+}
+#App-algemeen p{
+    font-size: 15px;
+    margin-left: 100px;
+    margin-right: -200px;
+}
+
+#App-foto{
+    float: right;
+    width: 120%;
+    margin-top: -200px;
+    margin-right: -700px;
+    margin-left: 200px;
+
+}
+#App-titel{
+    margin-left: 90px;
+    color: #000000;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#foto-Mock-up{
+    float: left;
+    margin-right: 200px;
+    margin-top: 190px;
+    margin-left: 200px;
+    width: 33%;
+}
+#tekst-van-Mock-ups{
+    float: right;
+    margin-top: -280px;
+    padding: 5px;
+    margin-left: 900px;
+    margin-right: 200px;
+}
+#tekst-van-Mock-ups p{
+    font-size: 15px;
+}
+#Mock-ups-titel-logo{
+    color: #000000;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+#foto-Pin{
+    float: left;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-left: 400px;
+    width: 14%;
+}
+
+
 /*Werkplekleren 2 */
 
 
@@ -708,7 +804,6 @@ footer li a{
     color: #000000;
     font-size: 25px;
     text-transform: uppercase;
-
 }
 
 #titel-clearview{
